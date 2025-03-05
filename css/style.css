@@ -1,0 +1,352 @@
+/* body opmaak */  
+html, body{     
+    height: 100%;     
+    width: 100%;      
+    margin: 0;     
+    padding: 0;          
+    overflow-x: hidden; 
+}  
+
+/* pagina achtergronden */      
+body.home{          
+    background-image: url(../img/indexachtergrond.png);           
+    background-repeat: no-repeat;          
+    background-size: cover;           
+    width: auto;         
+    height: 1133px;           
+    margin: 0;     
+}            
+
+
+body.mijnervaring{         
+    background-color: white;          
+    background-image: url(../img/mijnervaringachtergrond.png);           
+    background-repeat: no-repeat;           
+    background-size: cover;         
+    width: auto;          
+    height: 975px;     
+}          
+
+
+body.historie{         
+    background-color: white;          
+    background-image: url(../img/historieachtergrond.png);           
+    background-repeat: no-repeat;          
+    background-size: cover;         
+    width: auto;          
+    height: 1125px;      
+}    
+
+/* teksten pagina Home */       
+.jua.groet{     
+    position: absolute;      
+    font-size: 25px;     
+    top: 172px;     
+    left: 165px;     
+}      
+.jua.intro{     
+    position: absolute;      
+    text-align: center;      
+    margin-left: 50px;       
+    margin-right: 40px;     
+    font-size: 12px;     
+    top: 212px;      
+}        
+
+
+.modak.info{      
+    position: absolute;      
+    top: 275px;      
+    left: 110px;     
+}      
+.jua.info1{     
+    position: absolute;      
+    text-align: center;     
+    font-size: 11.3px;      
+    margin-left: 20px;      
+    margin-right: 20px;     
+    top: 320px;     
+}        
+
+
+.modak.ervaring{     
+    position: absolute;      
+    top: 520px;       
+    left: 60px;     
+}     
+.jua.ervaring1{     
+    position: absolute;       
+    text-align: center;
+    font-size: 12px; 
+    top: 560px; 
+    left: 30px; 
+    margin-left: 10px;
+    margin-right: 110px;
+}        
+
+
+.modak.historie{     
+    position: absolute;      
+    top: 745px;      
+    left: 190px;     
+}      
+.jua.historie1{     
+    position: absolute;
+    font-size: 13px;
+    margin-left: 120px;
+    margin-right: 5px; 
+    top: 785px; 
+    right: 55px;
+}
+
+
+/* teksten pagina mijn ervaring */    
+
+.jua.ervaring{     
+    position: absolute; 
+    font-size: 19px;
+    top: 73px; 
+    left: 20px;
+}   
+.jua.intro2{
+    position: absolute; 
+    text-align: left;
+    font-size: 12px; 
+    margin-right: 140px;
+    top: 115px; 
+    left: 10px;  
+}
+
+.modak.loveatfirstsight{
+    position: absolute;
+    top: 300px; 
+    left: 170px ;  
+}
+.jua.loveatfirstsight{
+    position: absolute; 
+    text-align: right; 
+    font-size: 12px; 
+    margin-left: 160px;
+    top: 340px; 
+    right: 15px;  
+}
+
+
+.modak.pepper{
+    position: absolute;
+    top: 525px; 
+    left: 10px ;  
+}
+.jua.pepper{
+    position: absolute; 
+    text-align: left;
+    font-size: 11px; 
+    margin-right: 153px;
+    top: 570px; 
+    left: 10px;  
+}
+
+
+/* teksten pagina historie */       
+.historie h1{     
+    position: relative;      
+    left: 130px;      
+    top: 70px;     
+}       
+.jua.historie{      
+    text-align: center;
+    position: relative;       
+    left: 5px;      
+    top: 55px; 
+    font-size:14px;
+    margin-left: 30px; 
+    margin-right: 30px;
+}            
+
+
+.modak.stichting {     
+    position: relative;     
+    left: 15px;      
+    top: 85px;     
+}      
+.jua.stichting {      
+    position: relative;     
+    font-size: small;       
+    padding-right: 90px;      
+    padding-left: 60px;        
+    top: 65px; 
+    right: 50px;         
+}       
+
+
+.modak.brand {         
+    position: relative;         
+    left: 270px;          
+    top: 125px;         
+}       
+.jua.brand {          
+    position: relative;         
+    text-align: right;         
+    font-size: 11.5px;           
+    padding-left: 80px;         
+    padding-right: 100px;         
+    left: 85px;         
+    top: 100px;     
+}       
+
+
+.modak.heropbouw {     
+    position: relative;     
+    left: 15px;      
+    top: 118px;       
+}      
+.jua.heropbouw {         
+    position:relative;          
+    font-size: 11.5px;          
+    top: 100px;          
+    right: 45px;         
+    padding-right: 80px;          
+    padding-left: 55px;         
+}           
+
+
+/* knoppen */      
+.knop1{          
+    position: absolute;         
+    left: 270px;          
+    top: 615px;  
+}       
+
+.knop2{  
+    position: absolute;          
+    right: 268px;          
+    top: 840px; 
+}      
+
+.knop1 img, .knop2 img{
+    width: 100px;
+    height: auto;
+}
+
+.jua.one{
+position: absolute; 
+color: white; 
+font-size: 10px;
+top: 622px; 
+left: 280px; 
+} 
+.jua.one:hover{
+text-decoration: underline;
+}
+
+.jua.two{
+position: absolute; 
+color: white;
+font-size: 11px;
+top: 847px; 
+left: 50px;
+} 
+.jua.two:hover{
+text-decoration: underline;
+}
+
+/* footer */ 
+
+ footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: 50px;
+    background-color: #A3C9D6; 
+    border-top: 7px solid #1F4B67;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 10px 0;  
+    z-index: 1000;
+  }
+
+  footer a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  } 
+
+  footer nav a img {
+    width: 50px; 
+    height: auto;  
+    padding-left: 20px; 
+    padding-right: 20px;
+  }  
+
+
+  .personal-icon {
+    height: 45px;
+    width: auto;
+  }
+
+
+/* fonts */       
+.modak{         
+    font-family: 'Modak', sans-serif;     
+}           
+
+.jua {         
+    font-family: 'Jua', sans-serif;      
+}            
+
+.kelly {
+    font-family: 'Kelly Slab', sans-serif; 
+}
+
+/* tekstopmaak */      
+span{         
+    color: white;     
+}      
+
+h1, h2, p{         
+    color: #1F4B67;      
+}  
+
+    .kelly.one{
+    position: absolute; 
+    font-size: 35px;
+    text-decoration: none;
+    color: #1F4B67;
+    top: 15px;
+    left: 80px;
+    } 
+    .kelly.one:hover{
+    text-decoration: underline;
+    }
+
+    
+    
+    .kelly.two{
+    position: absolute;  
+    font-size: 35px;
+    text-decoration: none; 
+    color: #1F4B67;
+    top: 15px;
+    left: 80px;  
+    } 
+    .kelly.two:hover{
+     text-decoration: underline;
+    }
+
+
+    .kelly.three{
+    position: absolute; 
+    font-size: 35px;
+    text-decoration: none; 
+    color: #1F4B67;
+    top: 15px;
+    left: 80px;
+    } 
+    .kelly.three:hover{
+     text-decoration: underline;
+    }
+
+
